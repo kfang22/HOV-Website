@@ -1,0 +1,14 @@
+$website-width: 1280px;
+$main-color: #04C529 ;
+$light-color: #66F381;
+$dark-color: #333;
+$medium-color: #B8E1BE ;
+$bg-image: url('../img/test.jpg');
+
+@function set-text-color($color){
+    @if(lightness($color) > 50){
+        @return #000;
+    } @else{
+        @return white;
+    }
+}

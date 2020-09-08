@@ -1,0 +1,17 @@
+[
+    {
+        "img": "./img/test1.jpg",
+        "name": "Project 1",
+        "post": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam sit doloremque rem laborum quibusdam sapiente quos iure, est esse ipsam nihil autem eos unde asperiores consectetur quae. Eveniet laudantium officia repudiandae esse maiores omnis praesentium atque sapiente reiciendis? Reprehenderit atque odio fugiat temporibus recusandae ipsam, explicabo ad doloribus perspiciatis expedita possimus veritatis? Aut ipsa consequatur nostrum deleniti minima quam molestiae libero obcaecati sint at, omnis possimus excepturi commodi, cum blanditiis incidunt doloribus fuga quas quibusdam accusamus labore nobis, distinctio eum. Expedita laudantium ratione sequi? Inventore, exercitationem et. Tempora quo, quos sed iure temporibus quidem quasi reprehenderit nostrum dignissimos atque?"
+    },
+    {
+        "img": "./img/beauty.jpg",
+        "name": "Project 2",
+        "post": "molestiae libero obcaecati sint at, omnis possimus excepturi commodi, cum blanditiis incidunt dolonem et. Tempora quo, quos sed iure temporibus quidem quasi reprehenderit nostrum dignissimos atque?"
+    },
+    {
+        "img": "./img/bitch.jpg",
+        "name": "Bitch Boy",
+        "post": "This person suffers from the rare case of bitch-boy syndrome. Symptoms include being a bitch, dressing like a bitch, speaking like a bitch, and acting like a bitch"
+    }
+]

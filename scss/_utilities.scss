@@ -1,0 +1,239 @@
+.container{
+    max-width: $website-width;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.primary-text-color{
+    color: $main-color;
+}
+
+.secondary-text-color{
+    color: #66F381;
+}
+
+.white-text-color{
+    color: white;
+}
+
+.bag-dark{
+    background: $dark-color;
+    color: set-text-color($dark-color);
+}
+
+.bag-light{
+    background: $light-color;
+    color: set-text-color($light-color);
+}
+
+//buttons{
+    %btn-shared{
+        display: inline-block;
+        padding: 0.5rem 2rem;
+        margin-top: 0.5rem;
+        transition: all 0.5s;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .btn{
+        &-main{
+            @extend %btn-shared;
+            color: #333;
+            background-color: #66F381;
+            border-radius: 5px;
+        }
+        &-light{
+            @extend %btn-shared;
+            color: #333;
+            background-color: white;
+            border-radius: 5px;
+        }
+        &-dark{
+            @extend %btn-shared;
+            color: white;
+            background-color: $dark-color;
+            border-radius: 5px;
+        }
+        &-transparent{
+            @extend %btn-shared;
+            color: black;
+            border-color: white;
+            border-width: 1px;
+            border-radius: 15px;
+            border-style: solid;
+            background: transparent;
+        }
+        &-transparent-light{
+            @extend %btn-shared;
+            color: white;
+            border-color: black;
+            border-width: 1px;
+            border-radius: 15px;
+            border-style: solid;
+            background: transparent;
+        }
+    }
+
+    button[class^='btn-']:hover,
+    a[class^='btn-']:hover,
+    input[class^='btn-']:hover{
+        background-color: #66F381 ;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    // padding
+    .py{
+        &-1{
+            padding: 1rem 0;
+        }
+        &-2{
+            padding: 2rem 0;
+        }
+        &-3{
+            padding: 3rem 0;
+        }
+        &-4{
+            padding: 4rem 0;
+        }
+        &-6{
+            padding: 6rem 0;
+        }
+        
+    }
+
+    //margins
+    .my{
+        &-1{
+            margin: 1rem 0;
+        }
+        &-2{
+            margin: 2rem 0;
+        }
+        &-3{
+            margin: 3rem 0;
+        }
+        &-4{
+            margin: 4rem 0;
+        }
+        &-6{
+            margin: 6rem 0;
+        }
+
+    }
+
+     .section-title-white{
+        font-size: 5rem;
+        display: block;
+        padding-bottom: 0.5rem;
+        text-align: center;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .section-title-black{
+        font-size: 5rem;
+        display: block;
+        padding-bottom: 0.5rem;
+        text-align: center;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: black;
+    }
+
+    .lead{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .text-container{
+        max-width: 70%;
+        padding: 0 1.5rem;
+        margin: auto;
+        margin-bottom: rem;
+        overflow: hidden;
+    }
+
+    .text-describe-black{
+                font-size: 1.7rem;
+                font-weight: 900;
+                color: black ;
+    }
+    .text-describe-white{
+                font-size: 1.7rem;
+                font-weight: 900;
+                color: white ;
+    }
+
+    .text-describe-main{
+        font-size: 2rem;
+        font-weight: 900;
+        color: $main-color ;
+    }
+
+    .text-describe-sec{
+        font-size: 2rem;
+        font-weight: 900;
+        color: $light-color ;
+    }
+
+
+
+    .bottom-pad{
+        padding-bottom: 2.5rem;
+    }
+
+    .bottom-margin{
+        margin-bottom: 2.5rem;
+    }
+
+    @media(max-width: 500px){
+
+        // .section-title-white{
+        //     font-size: 2rem;
+        //     display: block;
+        //     padding-bottom: 0.5rem;
+        //     text-align: center;
+        //     font-weight: 100;
+        //     text-transform: uppercase;
+        //     color: white;
+        // }
+    
+        // .section-title-black{
+        //     font-size: 2rem;
+        //     display: block;
+        //     padding-bottom: 0.5rem;
+        //     text-align: center;
+        //     font-weight: 100;
+        //     text-transform: uppercase;
+        //     color: black;
+        // }
+
+        // .text-describe-black{
+        //     font-size: 5rem;
+        //     font-weight: 900;
+            
+        // }
+        // .text-describe-white{
+        //     font-size: 1rem;
+        //     font-weight: 900;
+        // }
+
+        // .text-describe-main{
+        //     font-size: 1rem;
+        //     font-weight: 900;
+            
+        // }
+    
+        // .text-describe-sec{
+        //     font-size: 1rem;
+        //     font-weight: 900;
+            
+        // }
+    }
