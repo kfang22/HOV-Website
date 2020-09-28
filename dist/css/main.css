@@ -227,6 +227,10 @@ img {
   color: white;
   text-decoration: none; }
 
+.logo-words:hover {
+  text-decoration: none;
+  color: white; }
+
 #header-home {
   position: relative;
   background: url("../img/children1.jpg") no-repeat center center/cover;
