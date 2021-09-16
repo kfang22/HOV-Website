@@ -100,6 +100,8 @@ function getJson(ID) {
                 button_2.classList.remove('btn-dark');
                 button_2.classList.remove('btn-main');
                 button_2.classList.remove('btn-dark');
+
+                button_3.classList.remove('btn-dark');
                 button_3.classList.add('btn-main');
                 button_1.classList.add('btn-dark');
                 button_2.classList.add('btn-dark');
